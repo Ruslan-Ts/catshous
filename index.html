@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cathouse</title>
+</head>
+
+<body>
+    <header>
+        <div class="container m-auto py-4 px-4 grid gap-x-2 grid-cols-[24px_1fr] items-center">
+            <img src="./img/cat.svg" alt="logo" class="block w-6 h-6">
+            <h1 class="text-orange-400 text-2xl font-sans">Cathouse</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container m-auto px-4">
+            <ul class="mb-20 grid gap-3 grid-cols-1 md:gap-6 md:grid-cols-2 ">
+                <li class=" md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-3">
+                    <a href="#" class="relative text-white">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="img/picture-1.png">
+                            <source media="(min-width: 320px) and (max-width: 767px)" srcset="img/picture-1-small.png">
+                            <img src="img/picture-1-small.png" alt="kitten">
+                        </picture>
+                        <div class="absolute left-0 bottom-0 w-full rounded-b-2xl roun bg-gray-500/45 px-3 py-5">
+                            <h2 class="text-white text-base sm:text-xl">Cats and their amazing skills: from hunting to
+                                mysterious
+                                abilities</h2>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="relative text-white">
+                        <img src="./img/picture-2.png" alt="scary kitten" class="post-img">
+                        <div class="absolute left-0 bottom-0 w-full rounded-b-2xl roun bg-gray-500/45 px-3 py-5">
+                            <h2 class="text-white text-base sm:text-xl">Cats in literature and art: from Egyptian gods
+                                to
+                                contemporary masters</h2>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="relative text-white">
+                        <img src="./img/picture-3.png" alt="cat" class="post-img">
+                        <div class="absolute left-0 bottom-0 w-full rounded-b-2xl roun bg-gray-500/45 px-3 py-5">
+                            <h2 class="text-white text-base sm:text-xl">Cat breeds for active owners: how to choose a
+                                companion
+                            </h2>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <section class="longread">
+                <ul class="grid gap-12 md:gap-9 ">
+                    <li class="blog-item">
+                        <a href="#" class="grid gap-5 md:gap-6 md:grid-cols-[264px_1fr]">
+                            <img src="./img/1.png" alt="cat" class="blog-photo">
+                            <div class="grid gap-3">
+                                <h2 class="blog-title sub-title">Fun facts about cats that will surprise you</h2>
+                                <p class="blog-text">Fun and interesting facts about cats that will cheer you up and
+                                    tell you about their uniqueness.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="grid gap-5 md:gap-6 md:grid-cols-[264px_1fr]">
+                            <img src="./img/2.png" alt="cats" class="blog-photo">
+                            <div class="grid gap-3">
+                                <h2 class="blog-title sub-title">The most popular cat breeds: which cat is right for
+                                    you?
+                                </h2>
+                                <p class="blog-text">Learn about the most popular cat breeds and their characteristics
+                                    to make an informed choice that's right for you.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="grid gap-5 md:gap-6 md:grid-cols-[264px_1fr]">
+                            <img src="./img/4.png" alt="red-cat" class="blog-photo">
+                            <div class="grid gap-3">
+                                <h2 class="blog-title sub-title">How to take care of your furry friend: cat care
+                                </h2>
+                                <p class="blog-text">Learn about the main aspects of cat care, including feeding,
+                                    hygiene, and interacting with your cat.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="grid gap-5 md:gap-6 md:grid-cols-[264px_1fr]">
+                            <img src="./img/3.png" alt="red-cat" class="blog-photo">
+                            <div class="grid gap-3">
+                                <h2 class="blog-title sub-title">History and cultural significance of cats around the
+                                    world
+                                </h2>
+                                <p class="blog-text">Explore how cats have influenced the cultures of different nations
+                                    and learn the history of how humans and cats have lived together.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="socials">
+                    <h2 class="socials-title title">Social networks</h2>
+                    <ul class="socials-list">
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/instagram.png" alt="instagram" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/facebook.png" alt="facebook" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/youtube.png" alt="youtube" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/tiktok.png" alt="tiktok" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/github.png" alt="github" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="social-link">
+                                <img src="./img/twitter.png" alt="twitter" class="social-icon">
+                                <p class="social-subscripers">230.000</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="video">
+                    <h2 class="video-title title">Video with fluffy</h2>
+                    <img src="./img/picture.png" alt="video">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
